@@ -1,14 +1,19 @@
-#include <stdio.h>
-#include <stdio.h>
-#include <time.h>
+#include "main.h"
 /**
- * Main - Entry point
- *
- * Return: Always 0(success)
+ * main - print _putchar
+ * is wriien by mbah
+ * Return: 0
  */
 int main(void)
 {
-	printf("_putchar\n");
-	
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
